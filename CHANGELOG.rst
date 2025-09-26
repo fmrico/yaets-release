@@ -2,11 +2,18 @@
 Changelog for package yaets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.0.2 (2024-11-25)
+1.0.0 (2025-09-26)
 ------------------
-* Add e2e traces
+* Add all diagrams script
+* Add stats script
+* Add cmake export targets
+* Fix yaets name
+* Update README.md
 * One extra exmaple in README
+* Fix documentation
+* Remove font sizes
 * Add end to end traces
-* Adjust width
+* set CI
+* Update README.md
 * Initial commit
-* Contributors: Francisco Martín Rico
+* Contributors: Francisco Miguel Moreno Olivo, Francisco Martín Rico
