@@ -1,0 +1,46 @@
+ros-jazzy-yaets (1.0.4-1noble) noble; urgency=high
+
+  * Merge branch 'rolling' into jazzy-devel
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 15 Oct 2025 22:00:00 -0000
+
+ros-jazzy-yaets (1.0.3-1noble) noble; urgency=high
+
+  * Add python dep to package.xml
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Sun, 12 Oct 2025 22:00:00 -0000
+
+ros-jazzy-yaets (1.0.2-1noble) noble; urgency=high
+
+  * Fix python shebang
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Sun, 12 Oct 2025 22:00:00 -0000
+
+ros-jazzy-yaets (1.0.1-1noble) noble; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Sat, 11 Oct 2025 22:00:00 -0000
+
+ros-jazzy-yaets (1.0.0-1noble) noble; urgency=high
+
+  * Add all diagrams script
+  * Add stats script
+  * Add cmake export targets
+  * Fix yaets name
+  * Update README.md
+  * One extra exmaple in README
+  * Fix documentation
+  * Remove font sizes
+  * Add end to end traces
+  * set CI
+  * Update README.md
+  * Initial commit
+  * Contributors: Francisco Miguel Moreno Olivo, Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Thu, 25 Sep 2025 22:00:00 -0000
+
+
