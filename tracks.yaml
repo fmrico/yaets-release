@@ -42,7 +42,7 @@ tracks:
       :{release_inc} --os-name fedora
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
-    devel_branch: jazzy-devel
+    devel_branch: jazzy
     last_version: 1.0.4
     name: yaets
     patches: null
