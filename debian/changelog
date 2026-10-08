@@ -1,0 +1,62 @@
+ros-kilted-yaets (1.2.0-1noble) noble; urgency=high
+
+  * Producers never wait for the trace file: events are written outside the queue lock, in batches (no priority inversion on real-time threads)
+  * Conda packages with pixi (pixi-build-ros)
+  * Contributors: Francisco Martín Rico
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Wed, 07 Oct 2026 22:00:00 -0000
+
+ros-kilted-yaets (1.1.0-1noble) noble; urgency=high
+
+  * Update README
+  * Update CI
+  * Contributors: Francisco Martín Rico, Francisco Miguel Moreno
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Sat, 25 Jul 2026 22:00:00 -0000
+
+ros-kilted-yaets (1.0.4-1noble) noble; urgency=high
+
+  * Merge branch 'rolling' into jazzy-devel
+  * Contributors: Francisco Martín Rico
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Wed, 15 Oct 2025 22:00:00 -0000
+
+ros-kilted-yaets (1.0.3-1noble) noble; urgency=high
+
+  * Add python dep to package.xml
+  * Contributors: Francisco Martín Rico
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Sun, 12 Oct 2025 22:00:00 -0000
+
+ros-kilted-yaets (1.0.2-1noble) noble; urgency=high
+
+  * Fix python shebang
+  * Contributors: Francisco Martín Rico
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Sun, 12 Oct 2025 22:00:00 -0000
+
+ros-kilted-yaets (1.0.1-1noble) noble; urgency=high
+
+
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Sat, 11 Oct 2025 22:00:00 -0000
+
+ros-kilted-yaets (1.0.0-1noble) noble; urgency=high
+
+  * Add all diagrams script
+  * Add stats script
+  * Add cmake export targets
+  * Fix yaets name
+  * Update README.md
+  * One extra exmaple in README
+  * Fix documentation
+  * Remove font sizes
+  * Add end to end traces
+  * set CI
+  * Update README.md
+  * Initial commit
+  * Contributors: Francisco Miguel Moreno Olivo, Francisco Martín Rico
+
+ -- "Francisco Martín Rico" <fmrico@gmail.com>  Thu, 25 Sep 2025 22:00:00 -0000
+
+
