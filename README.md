@@ -1,3 +1,26 @@
+## yaets (humble) - 1.2.0-1
+
+The packages in the `yaets` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble yaets --new-track` on `Thu, 08 Oct 2026 18:43:45 -0000`
+
+The `yaets` package was released.
+
+Version of package(s) in repository `yaets`:
+
+- upstream repository: https://github.com/fmrico/yaets.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## yaets (lyrical) - 1.1.0-1
 
 The packages in the `yaets` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release yaets --rosdistro lyrical` on `Sun, 26 Jul 2026 07:25:21 -0000`
