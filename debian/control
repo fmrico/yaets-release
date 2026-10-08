@@ -1,0 +1,12 @@
+Source: ros-humble-yaets
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/yaets/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-yaets
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-matplotlib, ros-humble-ros-workspace
+Description: This package provides a execution tracing library.
