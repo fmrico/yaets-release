@@ -1,28 +1,30 @@
-name: rolling
+name: kilted
 
 on:
   pull_request:
     branches:
-      - rolling
+      - kilted
   push:
     branches:
-      - rolling
+      - kilted
   schedule:
       - cron: '0 0 * * 6'     
 jobs:
   build-and-test:
-    runs-on: ubuntu-26.04
+    runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/ros-tooling/setup-ros-docker/setup-ros-docker-ubuntu-resolute-ros-rolling-ros-base:master
+      image: ubuntu:noble
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
-          ref: rolling
+          ref: kilted
+      - name: Setup ROS 2
+        uses: ros-tooling/setup-ros@0.7.15
       - name: build and test
-        uses: ros-tooling/action-ros-ci@0.4.8
+        uses: ros-tooling/action-ros-ci@0.4.5
         with:
           package-name: yaets
-          target-ros2-distro: rolling
+          target-ros2-distro: kilted
           colcon-defaults: |
             {
               "test": {
