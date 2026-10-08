@@ -1,3 +1,26 @@
+## yaets (kilted) - 1.2.0-1
+
+The packages in the `yaets` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted yaets` on `Thu, 08 Oct 2026 18:50:23 -0000`
+
+The `yaets` package was released.
+
+Version of package(s) in repository `yaets`:
+
+- upstream repository: https://github.com/fmrico/yaets.git
+- release repository: https://github.com/fmrico/yaets-release.git
+- rosdistro version: `1.0.3-1`
+- old version: `1.0.3-1`
+- new version: `1.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## yaets (humble) - 1.2.0-1
 
 The packages in the `yaets` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble yaets --new-track` on `Thu, 08 Oct 2026 18:43:45 -0000`
